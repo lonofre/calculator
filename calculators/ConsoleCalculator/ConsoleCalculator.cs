@@ -6,7 +6,7 @@ internal abstract class ConsoleCalculator
 {
     private static void Main(string[] args)
     {
-        var calculator = new BasicCalculatorProgram();
+        var calculator = new ExtendedCalculatorProgram();
         calculator.Run();
     }
 }
